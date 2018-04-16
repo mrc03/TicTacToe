@@ -142,7 +142,10 @@ public class MainActivity extends AppCompatActivity {
         block1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block1.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block1.setText("0");
                     count++;
                     checkForWinner();
@@ -157,7 +160,10 @@ public class MainActivity extends AppCompatActivity {
         block2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block2.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block2.setText("0");
                     count++;
                     checkForWinner();
@@ -172,7 +178,10 @@ public class MainActivity extends AppCompatActivity {
         block3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block3.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block3.setText("0");
                     count++;
                     checkForWinner();
@@ -187,7 +196,10 @@ public class MainActivity extends AppCompatActivity {
         block4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block4.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block4.setText("0");
                     count++;
                     checkForWinner();
@@ -202,7 +214,10 @@ public class MainActivity extends AppCompatActivity {
         block5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block5.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block5.setText("0");
                     count++;
                     checkForWinner();
@@ -217,7 +232,10 @@ public class MainActivity extends AppCompatActivity {
         block6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block6.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block6.setText("0");
                     count++;
                     checkForWinner();
@@ -232,7 +250,10 @@ public class MainActivity extends AppCompatActivity {
         block7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block7.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block7.setText("0");
                     count++;
                     checkForWinner();
@@ -247,7 +268,10 @@ public class MainActivity extends AppCompatActivity {
         block8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block8.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block8.setText("0");
                     count++;
                     checkForWinner();
@@ -262,7 +286,10 @@ public class MainActivity extends AppCompatActivity {
         block9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (count % 2 == 0) {
+                String t = block9.getText().toString();
+                if (t == "X" || t == "0") {
+
+                } else if (count % 2 == 0) {
                     block9.setText("0");
                     count++;
                     checkForWinner();
