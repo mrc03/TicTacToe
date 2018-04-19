@@ -473,6 +473,7 @@ public class MainActivity extends AppCompatActivity {
             block8.setEnabled(false);
             block9.setEnabled(false);
             block5.setEnabled(false);
+            
         }
 
 
