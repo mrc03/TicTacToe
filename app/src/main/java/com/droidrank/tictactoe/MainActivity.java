@@ -118,6 +118,16 @@ public class MainActivity extends AppCompatActivity {
                                     block9.setEnabled(false);
                                     block5.setEnabled(false);
 
+                                    block1.setTextColor(getResources().getColor(android.R.color.white));
+                                    block2.setTextColor(getResources().getColor(android.R.color.white));
+                                    block3.setTextColor(getResources().getColor(android.R.color.white));
+                                    block4.setTextColor(getResources().getColor(android.R.color.white));
+                                    block5.setTextColor(getResources().getColor(android.R.color.white));
+                                    block6.setTextColor(getResources().getColor(android.R.color.white));
+                                    block7.setTextColor(getResources().getColor(android.R.color.white));
+                                    block8.setTextColor(getResources().getColor(android.R.color.white));
+                                    block9.setTextColor(getResources().getColor(android.R.color.white));
+
 
                                     count = 0;
 
@@ -319,80 +329,129 @@ public class MainActivity extends AppCompatActivity {
         if ((t1 == t2 && t1 == t3 && t3 == t2)) {
             if (t1 == "0") {
                 result.setText("Player 1 Wins");
+                block1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block2.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+
                 flag = 1;
 
             } else if (t1 == "X") {
                 result.setText("Player 2 Wins");
+                block1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block2.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             }
         } else if ((t4 == t5 && t5 == t6 && t4 == t6)) {
             if (t4 == "0") {
                 result.setText("Player 1 Wins");
+                block4.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block5.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block6.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             } else if (t4 == "X") {
                 result.setText("Player 2 Wins");
+                block4.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block5.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block6.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             }
         } else if ((t7 == t8 && t8 == t9 && t7 == t9)) {
             if (t7 == "0") {
                 result.setText("Player 1 Wins");
+                block7.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block8.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block9.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             } else if (t7 == "X") {
                 result.setText("Player 2 Wins");
+                block7.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block8.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block9.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             }
         } else if ((t1 == t4 && t4 == t7 && t7 == t1)) {
             if (t7 == "0") {
                 result.setText("Player 1 Wins");
+                block1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block4.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block7.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             } else if (t7 == "X") {
                 result.setText("Player 2 Wins");
+                block1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block4.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block7.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             }
         } else if ((t2 == t5 && t2 == t8 && t5 == t8)) {
             if (t2 == "0") {
                 result.setText("Player 1 Wins");
+                block2.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block5.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block8.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             } else if (t2 == "X") {
                 result.setText("Player 2 Wins");
+                block2.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block5.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block8.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             }
         } else if ((t3 == t6 && t6 == t9 && t3 == t9)) {
             if (t3 == "0") {
                 result.setText("Player 1 Wins");
+                block3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block6.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block9.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             } else if (t3 == "X") {
                 result.setText("Player 2 Wins");
+                block3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block6.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block9.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             }
         } else if ((t1 == t5 && t1 == t9 && t5 == t9)) {
             if (t5 == "0") {
                 result.setText("Player 1 Wins");
+                block1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block5.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block9.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             } else if (t5 == "X") {
                 result.setText("Player 2 Wins");
+                block1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block5.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block9.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             }
         } else if ((t7 == t3 && t7 == t5 && t3 == t5)) {
             if (t7 == "0") {
                 result.setText("Player 1 Wins");
+                block3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block5.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block7.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             } else if (t7 == "X") {
                 result.setText("Player 2 Wins");
+                block3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block5.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+                block7.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
                 flag = 1;
 
             }
